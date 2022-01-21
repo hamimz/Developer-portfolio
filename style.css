@@ -40,3 +40,34 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experience{
+    background-image: url(images/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.experience-items{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#Lorem1{
+    border-image: linear-gradient(blue,cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+
+#Lorem2{
+    border-image: linear-gradient(rgb(42, 148, 235),white);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
