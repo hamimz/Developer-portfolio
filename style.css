@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -12,6 +13,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half{
@@ -20,15 +22,21 @@ section{
 }
 
 .half img{
-    width: 60%;
+    width: 70%;
 }
 
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 30px;
+    padding: 10px 10px 10px;
     border-radius: 5%;
     color:white;
     font-weight: 300;
     
+}
+
+.top{
+    background-image: url(images/thomas-lefebvre-_0eMNseqmYk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
